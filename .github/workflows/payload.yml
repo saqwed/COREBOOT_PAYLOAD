@@ -1,6 +1,10 @@
 name: payload
 
-on: push
+# https://crontab.guru
+on:
+  push:
+  schedule:
+    - cron: "0 9 */1 * *"
 
 jobs:
   App:
