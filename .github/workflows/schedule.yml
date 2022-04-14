@@ -3,7 +3,8 @@ name: cron
 # https://crontab.guru
 on:
   schedule:
-    - cron: "0 9 */1 * *"
+#    - cron: "0 9 */1 * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   App:
